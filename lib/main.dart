@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                         Text(result.data?['continent']['countries'][index]['emoji']),
                         const SizedBox(width: 20.0,),
                         Text(result.data?['continent']['countries'][index]['name']),
-                        const SizedBox(width: 20.0,),
+                        const SizedBox(width: 10.0,),
                         Text("(${result.data?['continent']['countries'][index]['code']})"),
                       ],
                     ),
